@@ -1,0 +1,59 @@
+AllCops:
+  TargetRubyVersion: 2.7.2
+
+  AccessModifierIndentation:
+  Enabled: false
+
+AndOr:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+GuardClause:
+  Enabled: false
+
+LineLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 5
+
+Metrics/AbcSize:
+  Max: 20
+
+ClassLength:
+  Max: 150
+
+Metrics/MethodLength:
+  Max: 20
+
+NumericLiterals:
+  MinDigits: 7
+
+SignalException:
+  Enabled: false
+
+SpaceBeforeBlockBraces:
+  Enabled: false
+
+SpaceInsideBlockBraces:
+  EnforcedStyle: space
+
+StringLiterals:
+  Enabled: false
+
+WordArray:
+  Enabled: false
+
+BlockLength:
+  Enabled: false
+
+AmbiguousBlockAssociation:
+  Enabled: false
+
+RedundantFetchBlock:
+  Enabled: false
+
+GlobalStdStream:
+  Enabled: false
